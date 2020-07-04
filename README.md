@@ -1,7 +1,6 @@
 # deploying-wordpress-kubernetes
-----
 
-> To continue make sure you have installed and setup, [cloud SDK](https://cloud.google.com/sdk/install) and [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/).
+> To continue make sure you have installed and properly setup, [cloud SDK](https://cloud.google.com/sdk/install) and [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/). This includes generating an endpoint to your GCP kubernetes cluster.
 
 ## deployment
 Git clone this repository.
