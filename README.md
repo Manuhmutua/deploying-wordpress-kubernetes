@@ -3,7 +3,7 @@
 
 > To continue make sure you have installed and setup, [cloud SDK](https://cloud.google.com/sdk/install) and [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/).
 
-# deployment
+## deployment
 Git clone this repository.
 ```sh
 git clone https://github.com/Manuhmutua/deploying-wordpress-kubernetes.git
@@ -13,7 +13,7 @@ Then deploy to kubernetes using the kustomization like:
 kubectl apply -k ./
 ```
 
-# objective
+## objective
 * Create PersistentVolumeClaims and PersistentVolumes
 * Create a kustomization.yaml with
     - a Secret generator
